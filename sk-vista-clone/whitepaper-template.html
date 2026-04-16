@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[НАЗВАНИЕ КОМПАНИИ] – Строительство объектов под ключ</title>
+    <meta name="description" content="Официальный сайт строительной компании [НАЗВАНИЕ]. Услуги под ключ от разработки проекта до запуска объекта. Заказать строительные работы по телефону: [ТЕЛЕФОН]."/>
+    
+    <!-- Цветовая схема для замены -->
+    <style>
+        :root {
+            /* ЗАМЕНИТЕ ЭТИ ЦВЕТА НА ВАШИ */
+            --primary-color: #2C5F2D;      /* Основной цвет бренда */
+            --accent-color: #FFB400;       /* Акцентный цвет для кнопок */
+            --text-dark: #333333;          /* Цвет заголовков */
+            --text-light: #666666;         /* Цвет основного текста */
+            --bg-light: #F8F9FA;           /* Светлый фон секций */
+        }
+    </style>
+</head>
+<body>
+
+<!-- ============================================
+     ШАБЛОН ДЛЯ АДАПТАЦИИ ПОД НОВУЮ КОМПАНИЮ
+     Все места с [СКОБКАМИ] требуют замены!
+     ============================================ -->
+
+<header class="transparent">
+    <div class="container">
+        <!-- ЛОГОТИП: Замените SVG на ваш логотип -->
+        <a href="/">
+            <svg id="logo" width="160" height="35" viewBox="0 0 160 35" fill="none">
+                <!-- ВСТАВЬТЕ ВАШ SVG ЛОГОТИП ЗДЕСЬ -->
+                <text x="0" y="25" font-size="24" font-weight="bold" fill="#2C5F2D">[ВАШ ЛОГО]</text>
+            </svg>
+        </a>
+        
+        <!-- МОТТО: Измените слоган компании -->
+        <span class="motto">[ВАШ СЛОГАН, например: Строим будущее сегодня]</span>
+        
+        <!-- КОНТАКТЫ В ШАПКЕ -->
+        <div class="header-phone">
+            <a href="tel:[ТЕЛЕФОН_БЕЗ_ПРОБЕЛОВ]">[+7 (XXX) XXX-XX-XX]</a>
+        </div>
+        <div class="header-mail">
+            <a href="mailto:[EMAIL]">[email@company.ru]</a>
+        </div>
+        
+        <!-- КНОПКИ CTA -->
+        <button class="callbackModal" data-toggle="modal" data-target="#callbackModal">
+            <a>Заказать звонок</a>
+        </button>
+        <button class="tender-invite" data-toggle="modal" data-target="#tenderModal">
+            <a>Пригласить на тендер</a>
+        </button>
+    </div>
+</header>
+
+<main>
+    <!-- ГЛАВНЫЙ ЭКРАН (HERO SECTION) -->
+    <section class="hero">
+        <h1>[ГЛАВНЫЙ ЗАГОЛОВОК]</h1>
+        <p class="subtitle">[Подзаголовок с УТП: Срок сдачи от X месяцев. Гарантия Y лет. Работаем с ZZZZ года]</p>
+        <button class="cta-button">[Получить бесплатную консультацию]</button>
+    </section>
+
+    <!-- О КОМПАНИИ -->
+    <section class="about">
+        <h2>О компании [НАЗВАНИЕ]</h2>
+        <p>[Краткое описание: Мы занимаемся строительством промышленных и гражданских объектов с XXXX года. За это время реализовано более N проектов...]</p>
+        
+        <!-- КЛЮЧЕВЫЕ ЦИФРЫ -->
+        <div class="stats">
+            <div class="stat-item">
+                <span class="number">[15+]</span>
+                <span class="label">лет на рынке</span>
+            </div>
+            <div class="stat-item">
+                <span class="number">[200+]</span>
+                <span class="label">реализованных проектов</span>
+            </div>
+            <div class="stat-item">
+                <span class="number">[50+]</span>
+                <span class="label">сотрудников в штате</span>
+            </div>
+            <div class="stat-item">
+                <span class="number">[7 лет]</span>
+                <span class="label">гарантия на все работы</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="services">
+        <h2>Наши услуги</h2>
+        <div class="services-grid">
+            <!-- УСЛУГА 1 -->
+            <div class="service-card">
+                <h3>[Генеральное строительство]</h3>
+                <p>[Полный цикл строительных работ от фундамента до отделки]</p>
+            </div>
+            
+            <!-- УСЛУГА 2 -->
+            <div class="service-card">
+                <h3>[Проектирование]</h3>
+                <p>[Разработка проектной документации любой сложности]</p>
+            </div>
+            
+            <!-- УСЛУГА 3 -->
+            <div class="service-card">
+                <h3>[Реконструкция]</h3>
+                <p>[Модернизация и восстановление существующих зданий]</p>
+            </div>
+            
+            <!-- УСЛУГА 4 -->
+            <div class="service-card">
+                <h3>[Инженерные сети]</h3>
+                <p>[Монтаж всех видов инженерных коммуникаций]</p>
+            </div>
+            
+            <!-- Добавьте больше услуг по необходимости -->
+        </div>
+    </section>
+
+    <!-- ЭТАПЫ РАБОТЫ -->
+    <section class="stages">
+        <h2>Этапы работы</h2>
+        <div class="timeline">
+            <div class="stage">
+                <span class="stage-number">01</span>
+                <h3>[Заявка и консультация]</h3>
+                <p>[Обсуждаем требования, проводим предварительную оценку]</p>
+                <span class="duration">[1-2 дня]</span>
+            </div>
+            
+            <div class="stage">
+                <span class="stage-number">02</span>
+                <h3>[Выезд на объект и замеры]</h3>
+                <p>[Инженер приезжает на объект, проводит замеры и оценку]</p>
+                <span class="duration">[2-3 дня]</span>
+            </div>
+            
+            <div class="stage">
+                <span class="stage-number">03</span>
+                <h3>[Составление сметы]</h3>
+                <p>[Подготавливаем детальную смету и договор]</p>
+                <span class="duration">[3-5 дней]</span>
+            </div>
+            
+            <div class="stage">
+                <span class="stage-number">04</span>
+                <h3>[Строительство]</h3>
+                <p>[Выполняем все строительно-монтажные работы]</p>
+                <span class="duration">[от 3 месяцев]</span>
+            </div>
+            
+            <div class="stage">
+                <span class="stage-number">05</span>
+                <h3>[Сдача объекта]</h3>
+                <p>[Подписываем акты, передаем документацию]</p>
+                <span class="duration">[1-2 дня]</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section class="advantages">
+        <h2>Почему выбирают нас</h2>
+        <div class="advantages-grid">
+            <div class="advantage">
+                <h3>[✅ Соблюдение сроков]</h3>
+                <p>[Гарантируем сдачу объекта точно в срок по договору]</p>
+            </div>
+            <div class="advantage">
+                <h3>[✅ Фиксированная смета]</h3>
+                <p>[Стоимость не меняется в процессе строительства]</p>
+            </div>
+            <div class="advantage">
+                <h3>[✅ Гарантия 7 лет]</h3>
+                <p>[Несем полную ответственность за качество работ]</p>
+            </div>
+            <div class="advantage">
+                <h3>[✅ Лицензии СРО]</h3>
+                <p>[Все необходимые допуски и сертификаты]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОРТФОЛИО -->
+    <section class="portfolio">
+        <h2>Наши проекты</h2>
+        <div class="portfolio-grid">
+            <!-- ПРОЕКТ 1 -->
+            <div class="project-card">
+                <img src="[путь_к_фото_1.jpg]" alt="[Название объекта 1]">
+                <h3>[Название объекта 1]</h3>
+                <p>[Тип: Промышленное здание | Площадь: 5000 м² | Срок: 8 месяцев]</p>
+                <p>[Краткое описание: Строительство склада класса А...]</p>
+            </div>
+            
+            <!-- ПРОЕКТ 2 -->
+            <div class="project-card">
+                <img src="[путь_к_фото_2.jpg]" alt="[Название объекта 2]">
+                <h3>[Название объекта 2]</h3>
+                <p>[Тип: Торговый центр | Площадь: 12000 м² | Срок: 14 месяцев]</p>
+                <p>[Краткое описание: Комплексное строительство ТЦ...]</p>
+            </div>
+            
+            <!-- Добавьте больше проектов (минимум 6-10) -->
+        </div>
+    </section>
+
+    <!-- ОТЗЫВЫ (опционально) -->
+    <section class="testimonials">
+        <h2>Отзывы клиентов</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <p>"[Компания [НАЗВАНИЕ] продемонстрировала высокий профессионализм...]"</p>
+                <cite>— [Имя Фамилия], [Должность], [Компания]</cite>
+            </div>
+            <!-- Добавьте больше отзывов -->
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <h2>Частые вопросы</h2>
+        <div class="faq-item">
+            <h3>❓ Какие гарантии вы предоставляете?</h3>
+            <p>[Мы предоставляем гарантию 7 лет на все строительные работы согласно договору.]</p>
+        </div>
+        <div class="faq-item">
+            <h3>❓ Можно ли платить поэтапно?</h3>
+            <p>[Да, мы работаем с поэтапной оплатой согласно графику выполнения работ.]</p>
+        </div>
+        <div class="faq-item">
+            <h3>❓ Что входит в смету?</h3>
+            <p>[В смету входят все материалы, работы, техника и накладные расходы.]</p>
+        </div>
+        <div class="faq-item">
+            <h3>❓ Работаете ли вы с НДС?</h3>
+            <p>[Да, мы работаем с НДС и предоставляем полный пакет закрывающих документов.]</p>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="contacts">
+        <h2>Контакты</h2>
+        <div class="contact-info">
+            <p><strong>Адрес:</strong> [Ваш адрес с индексом]</p>
+            <p><strong>Телефон:</strong> <a href="tel:[ТЕЛЕФОН]">[+7 (XXX) XXX-XX-XX]</a></p>
+            <p><strong>Email:</strong> <a href="mailto:[EMAIL]">[email@company.ru]</a></p>
+            <p><strong>Режим работы:</strong> [Пн-Пт 9:00-18:00]</p>
+            
+            <!-- КНОПКИ МЕССЕНДЖЕРОВ -->
+            <div class="messengers">
+                <a href="https://wa.me/[7XXXXXXXXXX]" class="btn-whatsapp">WhatsApp</a>
+                <a href="https://t.me/[USERNAME]" class="btn-telegram">Telegram</a>
+            </div>
+        </div>
+        
+        <!-- КАРТА: Замените координаты на ваши -->
+        <div class="map">
+            <!-- Вставьте код карты Яндекс или Google -->
+            <iframe src="https://yandex.ru/map-widget/?ll=[ШИРОТА]%2C[ДОЛГОТА]&z=15" width="100%" height="400"></iframe>
+        </div>
+        
+        <!-- ФОРМА ОБРАТНОЙ СВЯЗИ -->
+        <form class="contact-form" action="[URL_ОБРАБОТЧИКА]" method="POST">
+            <h3>Оставить заявку</h3>
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Сообщение"></textarea>
+            <button type="submit">[Отправить заявку]</button>
+        </form>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2026 [НАЗВАНИЕ КОМПАНИИ]. Все права защищены.</p>
+        <nav>
+            <a href="/privacy-policy.pdf">Политика конфиденциальности</a>
+            <a href="/sitemap.xml">Карта сайта</a>
+        </nav>
+        <div class="socials">
+            <!-- Ссылки на соцсети -->
+        </div>
+    </div>
+</footer>
+
+<!-- МОДАЛЬНЫЕ ОКНА (не забудьте настроить обработчики) -->
+<div class="modal" id="callbackModal">
+    <div class="modal-content">
+        <h3>Заказать звонок</h3>
+        <form action="[URL_ОБРАБОТЧИКА]" method="POST">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+            <button type="submit">Жду звонка</button>
+        </form>
+    </div>
+</div>
+
+<div class="modal" id="tenderModal">
+    <div class="modal-content">
+        <h3>Пригласить на тендер</h3>
+        <form action="[URL_ОБРАБОТЧИКА]" method="POST">
+            <input type="text" name="company" placeholder="Название компании" required>
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Телефон" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="details" placeholder="Описание тендера"></textarea>
+            <button type="submit">Отправить приглашение</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
